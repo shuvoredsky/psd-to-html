@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(85, 85, 85);
+}
+.header-part{
+    height: 745px;
+    width: 1600px;
+    background-color: white;
+    background-image: url(../images/05-Restrurent-header-photo.png);
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+.header-logo{
+    height: 100px;
+    width: 155px;
+    background-image: url(../images/05-Restrurentlogo.png);
+    padding-top:10px ;
+    margin-left: 180px;
+}
+.nav-item{
+    width: 715px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 240px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-2{
+    height: 20px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-header h1{
+    font-size: 86px;
+    color: white;
+    padding: 70px 420px 0px 420px;
+    text-align: center;
+}
+.nav-text-design{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 680px 0px 680px;
+}
+.nav-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px 555px 0px 555px;
+}
+.nav-btn{
+    height: 55px;
+    width: 225px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all linear 2sec;
+    color: white;
+}
+.nav-btn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.first-body{
+    height: 710px;
+    width: 1600px;
+    background-image: url(../images/05-plate-background.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-body-header{
+    height: 710px;
+    width: 715px;
+}
+.first-body-header h1{
+    padding-left: 325px;
+    padding-top: 105px;
+    color: #cc9900;
+    font-weight: 700;
+}
+.first-body-header img{
+    padding: 15px 0px 30px 370px;
+}
+.first-body-header p{
+    padding-left: 285px;
+    text-align: center;
+}
+.plate-side-logo img{
+    padding-left: 425px;
+    padding-top: 55px;
+}
+.first-body-plate img{
+    padding-top: 75px;
+    padding-left: 50px;
+}
+.body-sec {
+    display: flex;
+    justify-content: center; /* horizontally center করে */
+    align-items: center; /* vertically center করে */
+    height: 755px;
+    width: 1600px;
+    background-image: url(../images/05-2nd-body-backt.png);
+    background-size: cover;
+}
+.body-sec-content{
+    height: 555px;
+    width: 565px;
+    background-color: rgba(0, 0, 0, 0.623);
+    margin-left: 700px;
+    text-align: center;
+}
+.body-sec-content h2{
+    padding: 80px 165px 15px 165px;
+    color: white;
+}
+.body-sec-content p{
+    color: white;
+    padding: 30px 70px 30px 70px;
+}
+.body-third{
+    height: 1000px;
+    width: 1600px;
+    background-image: url(../images/05-2nd-body.png);
+    display: flex;
+    flex-wrap: wrap;
+}
+.body-third-part1{
+    height: 50%;
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+}
+.body-third-part1 h1{
+    padding-top: 70px;
+    font-weight: 600;
+    color: #cc9900;
+}
+.body-third-part1 h4{
+    padding-top: 20px;
+    font-weight: 700;
+    color: #cc9900;
+}
+.price-tag{
+    padding-left: 270px;
+}
+.price{
+    padding-left: 180px;
+}
+.body-third-part2{
+    height: 50%;
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+    padding: 70px 285px 70px 70px;
+}
+.body-third-part2 h1{
+    font-weight: 600;
+    color: #cc9900;
+
+}
+.body-third-part2 h4{
+    padding-top: 20px;
+    font-weight: 700;
+    color: #cc9900;
+}
+.body-third-part-2nd-layer{
+    height: 50%;
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+    padding-top: 50px;
+    display: flex;
+    }
+.body-third-part-2nd-layer h1{
+    font-weight: 600;
+    color: #cc9900;
+}
+.body-third-part-2nd-layer h4{
+    padding-top: 20px;
+    font-weight: 700;
+    color: #cc9900;
+}
+.salad{
+    text-align: center;
+    padding-left: 180px;
+    padding-bottom: 10px;
+    
+}
+.main-dishes{
+   
+    padding-left: 285px;
+    padding-bottom: 150px;
+}
