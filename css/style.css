@@ -219,3 +219,123 @@ body {
     padding-left: 285px;
     padding-bottom: 150px;
 }
+.body-fourth-part{
+    height: 760px;
+    width: 1600px;
+    background-image: url(../images/05-last-back.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.body-fourth-content{
+    height: 555px;
+    width: 565px;
+    background-color: rgba(0, 0, 0, 0.623);
+    text-align: center;
+    color: #dde0df;
+}
+.body-fourth-content h2{
+    padding: 80px 165px 15px 165px;
+    color: white;
+}
+.body-fourth-content p{
+    color: white;
+    padding: 30px 70px 30px 70px;
+    }
+.body-five-part{
+    height: 710px;
+    width: 1600px;
+    background-image: url(../images/05-3rd-pattern.png);
+    display: flex;
+}
+.five-part1{
+    height: 510px;
+    width: 570px;
+    background-image: url(../images/05-last-photo.png);
+    margin: 100px 100px 100px 215px;
+}
+.five-part2{
+    height: 510px;
+    width: 570px;
+    background-color: white;
+    margin: 100px 285px 100px 0px;
+    justify-content: center;
+    text-align: center;
+    line-height: 2;
+}
+.five-part2 h1{
+    font-weight: 600;
+    color: #cc9900;
+}
+.form-container {
+    width: 500px;
+    
+    
+    
+}
+
+/* Row styling */
+.input-row {
+    display: flex;
+    justify-content: space-between; /* Space between inputs */
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+    
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+/* Input box styling */
+input {
+    /* Each input takes half the row's width */
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+/* Placeholder text styling (optional) */
+input::placeholder {
+    color: #aaa;
+}
+.book-btn{
+    padding: 10px 80px;
+    background-color: #c9a131;
+    color: white;
+    margin-top: 20px;
+    transition: all linear 2s;
+}
+.book-btn :hover{
+    background-color: #f4c749 ;
+}
+.footer-part{
+    height: 320px;
+    width: 1600px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer-part-in{
+    height: 218px;
+    width: 1100px;
+    
+    display: flex;
+}
+.footer-part1{
+    height: 218px;
+    width: 370px;
+    
+    margin: 0px 15px;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+.footer-p{
+    padding-top: 30px;
+    font-weight: 700;
+}
+.footer-part1 h3{
+    font-weight: 700;
+}
